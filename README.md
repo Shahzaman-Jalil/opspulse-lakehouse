@@ -22,7 +22,7 @@ row counts and `nothing to do` log lines — see "Data quality checks" below).
 | `silver` | Incremental parse/flatten/dedup/bot-filter into Silver | ~20–40s |
 | `gold` | Incremental dimension join + aggregations into Gold | ~20–40s |
 
-Job configuration (task graph, dependencies) is exported as JSON in `docs/job_config.json`.
+Job configuration (task graph, dependencies) is exported as JSON in `docs/job_config.yaml`.
 
 ## Architecture
 
