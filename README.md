@@ -138,5 +138,3 @@ runs across many more hourly files.
 Bronze → Silver → Gold → Job orchestration is complete and idempotency-tested. `push_size` /
 `push_distinct_size` fields were found to be unpopulated (~0% fill rate) in current GH Archive
 `PushEvent` payloads and are excluded from Gold metrics as a result.
-
-pushed
